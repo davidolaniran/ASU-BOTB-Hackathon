@@ -12,6 +12,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {Link } from '@mui/material';
+import ThreeScene from './components/ThreeScene';
 
 
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -177,11 +178,11 @@ const App = () => {
         </Toolbar>
       </Container>
     </AppBar>
-         <main>
-            <div className= {classes.container}>
-                
-            </div>
-         </main>
+      <main>
+    
+        <div className= {classes.container}>
+        </div>
+      </main>
          <Box
     sx={{
       display: 'flex',
@@ -190,7 +191,6 @@ const App = () => {
     }}
   >
     <CssBaseline />
-    
     <Box
       component="footer"
       sx={{
@@ -200,6 +200,7 @@ const App = () => {
         backgroundColor:'#002da1'
       }}
     >
+      
       <Container maxWidth="sm">
         <Typography variant="body1" align="center">
           2024 Battle Of The Brains, All Rights Reserved.
