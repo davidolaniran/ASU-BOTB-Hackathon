@@ -15,6 +15,7 @@ const HorizontalScroll = () => {
         <img src={require('./g7.jpeg')} alt="Image 1" className="item" />
         
       </div>
+      
     </div>
   );
 }

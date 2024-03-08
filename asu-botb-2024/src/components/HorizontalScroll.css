@@ -8,10 +8,11 @@
 
 .content {
   display: flex; /* Use flexbox to align items horizontally */
-  padding: 50px; /* Add padding to the container */
+  padding: 20px; /* Add padding to the container */
 }
 
 .item {
+  border-radius: 5px;
   width: calc(
     20% - 20px
   ); /* Set the width of each image (1/5 of the screen width minus spacing) */

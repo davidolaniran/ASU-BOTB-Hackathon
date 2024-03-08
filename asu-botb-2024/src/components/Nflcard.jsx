@@ -58,10 +58,12 @@ export default function MultiActionAreaCard() {
             </CardContent>
           </CardActionArea>
           <CardActions sx={{ justifyContent: 'center' }}>
-            <Button size="small" color="primary" >
-              NFL FANTASY
-            </Button>
-          </CardActions>
+        <a href="Fantasy.html" >
+          <Button size="small" color="primary">
+            NFL FANTASY
+        </Button>
+    </a>
+  </CardActions>
         </Card>
       </Box>
   );
