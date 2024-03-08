@@ -50,5 +50,5 @@ function Navbar() {
     </AppBar>
   );
 }
-
 export default Navbar;
+
