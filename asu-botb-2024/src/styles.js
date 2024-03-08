@@ -30,6 +30,14 @@ const useStyles = makeStyles((theme) => ({
         // height: '300px',
         color: 'white'
     },
+    appContainer: {
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh',
+    },
+    mainContent: {
+        flex: 1,
+    },
     
 }));
 

@@ -1,7 +1,5 @@
-import React, { useState }  from 'react';
-import { Typography, AppBar, Card, TextField, Button, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container} from '@mui/material';
-import { PhotoCamera } from '@mui/icons-material';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import React from 'react';
+import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import useStyles from './styles';
 import Box from '@mui/material/Box';
 import IconButton from '@mui/material/IconButton';
@@ -13,22 +11,29 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {Link } from '@mui/material';
 import ThreeScene from './components/ThreeScene';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+// import ThreeScene from './components/ThreeScene'; // Assuming ThreeScene is another component you have set up
 
-
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    
 
 const theme = createTheme();
-function Copyright() {
+
+function App() {
+  const classes = useStyles();
+
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <div className= {classes.appContainer}>
+      <Navbar />
+      <main className={classes.mainContent}>
+        {/* Place for your main app content, which might include a Three.js scene or other elements */}
+        
+        {/* You can replace <ThreeScene /> with other components or content as needed */}
+      </main>
+      <Footer />
+      </div>
+    </ThemeProvider>
   );
 }
 const App = () => {
