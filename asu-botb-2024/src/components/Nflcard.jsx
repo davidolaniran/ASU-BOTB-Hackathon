@@ -6,9 +6,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import CardActionArea from '@mui/material/CardActionArea';
 import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import { useNavigate } from 'react-router-dom';
 import Link from '@mui/material/Link';
 
 export default function MultiActionAreaCard() {
@@ -36,11 +34,11 @@ export default function MultiActionAreaCard() {
             </CardContent>
           </CardActionArea>
           <CardActions sx={{ justifyContent: 'center' }}>
-          <Link href="https://www.youtube.com/watch?v=zp7_DdBo_8o" underline="none">
+          <a href="Arvideo.mp4" >
             <Button size="small" color="primary">
               NFL GO
             </Button>
-            </Link>
+          </a>
           </CardActions>
         </Card>
   

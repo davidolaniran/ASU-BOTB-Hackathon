@@ -57,14 +57,12 @@ function App() {
     <div className="App" >
       <h1 style={{ marginTop: '5px', marginBottom: '5px', paddingTop: '0px', paddingBottom: '0px' }}>Best of NFL+</h1>
       <HorizontalScroll>
-        {/* Your content goes here */}
         <div className="item">
           Item 1
           <img src="" alt="" />
         </div>
         <div className="item">Item 2</div>
         <div className="item">Item 3</div>
-        {/* Add more items as needed */}
       </HorizontalScroll>
     </div>
       </main>

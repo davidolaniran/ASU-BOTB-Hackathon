@@ -1,4 +1,31 @@
-# Getting Started with Create React App
+# NFL GO Web App
+
+Welcome to NFL GO Web App! This web application combines the excitement of NFL football with elements of Pokémon games and Fantasy Football. With NFL GO, users can engage in thrilling gameplay, watch highlight videos of their favorite players, and manage their fantasy football teams, all in one place.
+
+## Features
+
+### NFL GO Game
+
+Experience the thrill of NFL football in a Pokémon-based game. Catch and train NFL players, battle against other users, and climb the ranks to become the ultimate NFL trainer.
+
+### Highlight Videos
+
+Watch highlight videos of the best plays and moments from NFL games. Get up close and personal with your favorite players as they make incredible plays on the field.
+
+### Fantasy Football
+
+Manage your fantasy football team and compete against friends and other users. Draft players, set your lineup, and strategize your way to victory each week of the NFL season.
+
+## How to Use
+
+1. **NFL GO Game**: Navigate to the NFL GO section of the web app to start playing the Pokémon-based NFL game. Catch NFL players, train them, and engage in battles to level up and progress in the game.
+
+2. **Highlight Videos**: Explore the Highlight Videos section to watch the latest and greatest plays from NFL games. Filter videos by player, team, or game to find exactly what you're looking for.
+
+3. **Fantasy Football**: Access the Fantasy Football section to manage your fantasy team. Make roster changes, set your lineup, and track your team's performance throughout the NFL season.
+
+
+# Getting Started with NFL GO React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -13,6 +40,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+Note: You have to cd to asu-botb-2024 before running npm start. If this doesn't run normally, you can run: npm install --legacy-peer-deps
 
 ### `npm test`
 
@@ -68,3 +97,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Additional Note: We built the Augmented reality with Three.js in Javascript, and it works well, although we had to use objects for the mapping.

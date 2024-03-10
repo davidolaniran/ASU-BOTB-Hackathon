@@ -1,18 +1,17 @@
 import React from 'react';
-import './HorizontalScroll.css'; // Import CSS file for styling
+import './HorizontalScroll.css'; 
 
 const HorizontalScroll = () => {
   return (
     <div className="horizontal-scroll-container">
       <div className="content">
-        {/* Your content goes here */}
-        <img src={require('./g1.jpeg')} alt="Image 1" className="item" />
-        <img src={require('./g2.jpeg')} alt="Image 2" className="item" />
-        <img src={require('./g3.jpeg')} alt="Image 3" className="item" />
-        <img src={require('./g4.jpeg')} alt="Image 1" className="item" />
-        <img src={require('./g5.jpeg')} alt="Image 2" className="item" />
-        <img src={require('./g6.jpeg')} alt="Image 3" className="item" />
-        <img src={require('./g7.jpeg')} alt="Image 1" className="item" />
+        <img src={require('./Aaron Donald.jpeg')} alt="Image 1" className="item" />
+        <img src={require('./JustinJefferson.jpeg')} alt="Image 2" className="item" />
+        <img src={require('./EdgeMyles.jpeg')} alt="Image 3" className="item" />
+        <img src={require('./TravisKelce.jpeg')} alt="Image 1" className="item" />
+        <img src={require('./ChrisJones.jpeg')} alt="Image 2" className="item" />
+        <img src={require('./DavanteAdams.jpeg')} alt="Image 3" className="item" />
+        <img src={require('./EdgeMicah.jpeg')} alt="Image 1" className="item" />
         
       </div>
       
